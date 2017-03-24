@@ -1,27 +1,57 @@
 h1 {
-  color: blue;
+  color: white;
   font-family: 'Dancing Script', cursive;
-  font-size: 80px;
+  font-size: 120px;
   text-align: center;
+  text-shadow: 2px 2px #ff0000;
 }
 
 h2 {
- color: blue;
- font-size: 40px;
- font-family: 'Griffy'; cursive; 
+ color: white;
+ font-size: 80px;
+ font-family: 'Griffy', cursive; 
  text-align: center;
+ text-shadow: 2px 2px #ff0000;
  }
 
 body {
   background-image: url(http://threebrotherspizzaada.com/three/wp-content/uploads/2014/09/pizza3.jpg);
+  opacity: 1;
 
+  /*background-repeat: no-repeat;*/
+  background-size: 2000px 2500px;
 }
 
 #Menu {
   text-align: center;
-  font-size: 15px;
-  color: black
-  font-family: 'Griffy'; cursive;
+  position: center;
+  position: absolute;
+  left: 350px;
+  border-left: 200px;
+  width: 50%;
+  font-size: 30px;
+  color: white;
+  font-family: 'Griffy', cursive;
+  text-shadow: 2px 2px red;
+  border: solid white; 
+  border-position: 20px 20px;
+  border-width: 15px;
+  background: black; opacity: 1;
+  padding-left: 10px;
+  border-radius: 100px;
 }
 
 
+.pizzaName{
+  border: solid red;
+  border-width: 5px;
+  background: white;
+  border-radius: 5px 50px;
+  color: red;
+  text-shadow: 2px 2px black;
+  
+}
+
+.price {
+  font-size:50px;
+}
